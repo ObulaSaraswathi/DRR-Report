@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DRR Report</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>DRR Report</h1>
+    
+    <div class="date-selection">
+        <label for="start-date">Start Date:</label>
+        <input type="date" id="start-date">
+        <label for="end-date">End Date:</label>
+        <input type="date" id="end-date">
+    </div>
+    
+    <div id="month-year">Month: Year</div>
+    
+    <div class="exclude-dates">
+        <label for="exclude-dates">Exclude Dates:</label>
+        <input type="date" id="exclude-dates">
+        <button id="add-excluded-date">Add</button>
+    </div>
+    
+    <div id="excluded-dates">
+        Excluded Dates:
+    </div>
+    
+    <div id="number-of-days">Number of Days: 0</div>
+    
+    <div class="lead-count">
+        <label for="number-of-leads">Number of Leads:</label>
+        <input type="number" id="number-of-leads">
+    </div>
+    
+    <div id="expected-lead-count">Expected Lead Count: 0</div>
+    
+    <button id="save-button">Save</button>
+    <button id="cancel-button">Cancel</button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
